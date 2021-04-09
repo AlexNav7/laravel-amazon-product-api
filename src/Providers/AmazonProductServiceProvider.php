@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 use Revolution\Amazon\ProductAdvertising\AmazonClient;
 use Revolution\Amazon\ProductAdvertising\Contracts\Factory;
 
-class AmazonProductServiceProvider extends ServiceProvider implements DeferrableProvider
+class AmazonProductServiceProvider extends ServiceProvider
 {
     /**
      * Register the application services.
